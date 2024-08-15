@@ -1,0 +1,119 @@
+.blob-container1{
+  position: absolute;
+  width: 100vw;
+  overflow-x: clip;
+}
+.blob {
+  position: absolute;
+  background: linear-gradient(47deg, #FF8A1E 21%,  #FFD361 67%, #FFE500 81%);
+  width: 500px;
+  height: 500px;
+  box-shadow: inset 50px 50px 17px 0px #FFE500,
+              inset 100px 100px 17px 0px #FF8A1E;
+  opacity: 0.4; /* Значение прозрачности изменено на 0.3 */
+  filter: blur(60px);
+  z-index: -1;
+}
+
+.blob01{
+   animation: animate01 13s cubic-bezier(.17,0,.89,1)
+               infinite alternate forwards;
+}
+.blob02{
+   animation: animate02 13s cubic-bezier(.17,0,.89,1)
+               infinite alternate forwards;
+}
+.blob03{
+   animation: animate03 13s cubic-bezier(.17,0,.89,1)
+               infinite alternate forwards;
+}
+
+
+@keyframes animate01 {
+   0%, 100% {
+    transform: translate(0%, -100%);
+    border-radius: 50% 60% 60% 30% / 100% 85% 92% 74%;
+  }
+  33% {
+    transform: translate(130%, 30%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+  66%{
+    transform: translate(130%, 100%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+
+}
+
+
+@keyframes animate02 {
+  0%, 100% {
+    transform: translate(130%, 100%);
+    border-radius: 80% 60% 40% 50% / 100% 85% 92% 74%;
+  }
+  33% {
+    transform: translate(0%, 30%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+  66%{
+    transform: translate(130%, -10%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+}
+
+@keyframes animate03 {
+  0%, 100% {
+    transform: translate(0%, 80%);
+    border-radius: 50% 60% 60% 30% / 100% 85% 92% 74%;
+  }
+  50% {
+    transform: translate(130%, 80%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+}
+
+@media (max-width: 928px) {
+
+  @keyframes animate01 {
+   0%, 100% {
+    transform: translate(0%, -50%);
+    border-radius: 50% 60% 60% 30% / 100% 85% 92% 74%;
+  }
+  33% {
+    transform: translate(60%, 30%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+  66%{
+    transform: translate(60%, 50%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+
+}
+
+
+@keyframes animate02 {
+  0%, 100% {
+    transform: translate(130%, 100%);
+    border-radius: 80% 60% 40% 50% / 100% 85% 92% 74%;
+  }
+  33% {
+    transform: translate(0%, 30%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+  66%{
+    transform: translate(130%, -10%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+}
+
+@keyframes animate03 {
+  0%, 100% {
+    transform: translate(0%, 80%);
+    border-radius: 50% 60% 60% 30% / 100% 85% 92% 74%;
+  }
+  50% {
+    transform: translate(130%, 80%);
+    border-radius: 70% 50% 30% 60% / 81% 15% 22% 54%;
+  }
+}
+}

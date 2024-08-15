@@ -1,0 +1,243 @@
+/* OurTeam.css */
+
+.our-team-container {
+  text-align: center;
+  z-index: 50;
+  position: relative;
+  font-family: 'Kharkiv Tone', sans-serif;
+}
+
+.our-team-container .team-member {
+  text-align: left;
+}
+
+.slick-slider {
+  width: 99vw; /* Обеспечить, чтобы слайдер занимал 100% ширины контейнера */
+}
+
+#team .slick-list {
+  margin: 0 auto; /* Центрировать слайды */
+  padding: 20px; /* Убедиться, что нет отступов вокруг слайдов */
+  width: 90vw !important;
+}
+
+#team .slick-track {
+  display: flex; /* Использовать flex для слайдов */
+  width: 90vw !important;
+}
+
+.slick-list {
+  margin: 0 auto; /* Центрировать слайды */
+  padding: 20px; /* Убедиться, что нет отступов вокруг слайдов */
+}
+
+.slick-track {
+  display: flex; /* Использовать flex для слайдов */
+  width: fit-content !important;
+}
+
+.slick-slide {
+  flex: 0 0 auto; /* Убедиться, что слайды не растягиваются или сжимаются */
+  width: 25% !important; /* Убедиться, что ширина слайдов подстраивается под их содержимое */
+}
+
+.our-team-container h1 {
+  font-size: 98px;
+  width: 80%;
+  padding-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 90px;
+  color: white;
+  text-align: left;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 80% !important;
+  margin: 0px !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-member .photo {
+  position: relative;
+}
+
+.team-member .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  border: 1px solid black;
+  transition: height 0.3s ease;
+  height: 100px; /* Начальная высота, когда не наведено */
+}
+
+@media only screen and (min-width: 929px) {
+  .team-member:hover .info {
+    height: 100%; /* Высота, когда наведено */
+  }
+
+}
+.full-description {
+  font-size: 15px; /* Размер шрифта, соответствующий старому стилю */
+  margin-bottom: 2px; /* Уменьшение отступов между предложениями */
+  line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}
+.full-description p{
+  font-size: 15px; /* Размер шрифта, соответствующий старому стилю */
+  margin-bottom: 2px; /* Уменьшение отступов между предложениями */
+  line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}
+.non-expandable:hover .info {
+  height: 100px !important; /* Карточки с внешней ссылкой не изменяют высоту */
+}
+
+.photo img {
+  border-radius: 20px;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.info {
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.info h3 {
+  font-size: 22px;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px;
+  margin-bottom: 0px;
+}
+
+.short-description {
+  margin: 0;
+  color: rgb(25, 25, 25, 0.25);
+  font-family: 'Helvetica Light', sans-serif;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.full-description {
+  margin-top: 15px;
+  margin-left: 5px;
+  font-family: 'Helvetica Light', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.full-description p {
+  margin-bottom: 2px;
+}
+
+.team-member.expanded .full-description {
+  display: block;
+}
+
+.slick-prev {
+  z-index: 1050;
+  left: 1%;
+}
+
+.slick-next {
+  z-index: 1050;
+  right: 1%;
+}
+
+.slick-next:before {
+  font-size: 30px;
+}
+
+.slick-prev:before {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 928px) {
+  .full-description {
+  font-size: 16px; /* Размер шрифта, соответствующий старому стилю */
+  margin-bottom: 2px; /* Уменьшение отступов между предложениями */
+  line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}
+ .full-description p{
+  font-size: 16px; /* Размер шрифта, соответствующий старому стилю */
+  margin-bottom: 2px; /* Уменьшение отступов между предложениями */
+  line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}
+  .our-team-container h1 {
+    font-size: 47px !important;
+    width: 80%;
+    margin-top: 110px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: left;
+    padding-top: 0px;
+  }
+
+  .team-member .info {
+    height: 100px; /* Начальная высота, когда не кликнуто */
+    transition: height 0.3s ease;
+  }
+
+  .team-member.expanded .info {
+    height: 100%; /* Начальная высота, когда не кликнуто */
+    transition: height 0.3s ease;
+  }
+
+  .our-team-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    text-align: left;
+  }
+
+  #team .slick-list {
+    margin-left: 0%;
+    margin: 0 auto; /* Центрировать слайды */
+    padding: 0px; /* Убедиться, что нет отступов вокруг слайдов */
+    width: 100vw !important;
+  }
+
+  #team .slick-track {
+    display: flex; /* Использовать flex для слайдов */
+    width: fit-content !important;
+  }
+
+  .our-team-container .slick-slide {
+    flex: 0 0 auto;
+    width: 100vw !important;
+  }
+
+  .our-team-container .slick-list {
+    padding-left: 0px !important;
+  }
+
+  .team-member {
+    width: 75% !important;
+    margin-left: 0px !important;
+  }
+
+  .short-description {
+    font-size: 12px;
+  }
+
+  .photo img {
+    border-radius: 20px;
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+  }
+}
+

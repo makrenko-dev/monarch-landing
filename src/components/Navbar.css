@@ -1,0 +1,42 @@
+.navtxt{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+
+  flex-direction: row-reverse;
+  background-color: transparent!important;
+}
+
+.navosn {
+  justify-content: flex-end;
+  
+}
+
+.navtxt {
+  text-align: right;
+
+}
+.text-light{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 928px) {
+  .navbar {
+    position: sticky;
+    top:0;
+      background-color: rgba(39, 39, 39, 0.5)!important; /* Пример цвета с прозрачностью 0.5 */
+      backdrop-filter: blur(1px); /* Применяем размытие */
+      z-index: 1600;
+}
+.navbar-dark{
+  border: none!important;
+  background-color: transparent!important;
+}
+.navbar-toggler:focus{
+  box-shadow: none!important;
+}
+}

@@ -1,0 +1,136 @@
+/* Roles.css */
+.h1faq{
+  margin-bottom: 60px;
+  color: white;
+  font-size: 98px;
+  margin-top: 130px;
+    font-family: 'Kharkiv Tone', sans-serif;
+}
+#FAQ{
+ padding-bottom: 120px;
+}
+.container {
+  background-color: transparent; /* Set the background color of the container to transparent */
+  border: none;
+   border-radius: none;
+
+}
+.row{
+  margin-bottom: 130px;
+}
+.col-md-4{
+    display: flex;
+    margin-top: 0px!important;
+    align-items: flex-end;
+
+}
+.col-md-4 p{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  font-family: 'Helvetica Ultra Light', sans-serif;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+.col-md-4 p.p2{
+  align-items: flex-end;
+  margin-bottom: 30px;
+  font-family: 'Helvetica Ultra Light', sans-serif;
+   font-weight: 600;
+   padding-bottom: 20px;
+   letter-spacing: 1px;
+
+}
+.col-md-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+   font-family: 'Helvetica Light', sans-serif;
+   font-weight: 400;
+}
+
+
+.col-md-3{
+  margin: 0px!important;
+  width: 27%;
+  margin-right: 30px!important;
+}
+
+.col-md-31{
+  margin: 0px!important;
+  width: 27%;
+}
+
+
+.txt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px!important;
+  padding-top: 0px!important;
+  padding-bottom: 20px!important;
+  color: white;
+  margin-right: 25px;
+}
+
+.txt1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+/* You may need to add more specific selectors based on your existing CSS structure */
+.col-lg-12 .card,
+.card-header,
+.card-body {
+  background-color: transparent !important; /* Set the background color of the Card components to transparent */
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+}
+.card-header{
+   border-bottom: 1px solid white;
+   padding: 0px!important;
+}
+
+/* Additional styling if needed */
+.rotate-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotatet {
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
+.rotatet.rotate-icon {
+  transform: rotate(45deg);
+}
+
+.card{
+  margin-bottom: 40px;
+}
+
+@media (max-width: 928px) {
+  .h1faq{
+  margin-bottom: 40px;
+  color: white;
+  font-size: 47px!important;
+  margin-top: 60px;
+}
+#FAQ .col-md-4 p{
+  font-size: 17px;
+  padding: 0px!important;
+  
+}
+#FAQ{
+  margin-bottom: 0px;
+}
+}
+

@@ -1,0 +1,123 @@
+.container12 {
+  position: relative;
+  z-index: 50;
+  height: fit-content;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  color: white;
+  font-size: 98px;
+  font-family: 'Kharkiv Tone', sans-serif;
+}
+
+.horizontal-scroll {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 90px;
+  overflow: hidden;
+  font-size: 24px;
+  color: white;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+  position: relative;
+}
+
+.stage-container {
+  display: flex;
+  position: relative;
+  height: fit-content;
+  transition: transform 0.5s ease;
+}
+
+.stage {
+  position: relative;
+  flex: 0 0 350px;
+  text-align: left;
+  margin-left: 30px;
+  
+}
+
+.step-title{
+  font-family: 'Kharkiv Tone', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.step-description{
+   font-family: 'Helvetica Light', sans-serif;
+   font-size: 22px;
+   margin-left: 80px;
+   width: 260px;
+   height: fit-content;
+   color: white;
+}
+#Stages .slick-slide {
+  flex: 0 0 auto; /* Убедиться, что слайды не растягиваются или сжимаются */
+  width: 33vw!important; /* Убедиться, что ширина слайдов подстраивается под их содержимое */
+}
+
+@media(max-width: 928px){
+
+#Stages .slick-slide {
+  flex: 0 0 auto; /* Убедиться, что слайды не растягиваются или сжимаются */
+  width: 99vw!important; /* Убедиться, что ширина слайдов подстраивается под их содержимое */
+}
+.stage {
+ 
+  margin-left: 0px;
+  
+}
+
+
+}
+
+@media (max-width: 620px) {
+
+.container12 {
+  margin-bottom: 60px;
+}
+.title {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  color: white;
+  font-size: 47px;
+  width: 80%;
+  font-family: 'Kharkiv Tone', sans-serif;
+}
+
+
+  .step-title{
+    position: relative;
+  font-family: 'Kharkiv Tone', sans-serif;
+  font-size: 52px;
+  color: white;
+  z-index: 1050;
+}
+
+.step-description{
+   position: relative;
+   font-family: 'Helvetica Light', sans-serif;
+   font-size: 20px;
+   margin-left: 80px;
+   height: fit-content;
+   color: white;
+   z-index: 1050;
+   width: 70%;
+}
+
+}
+@media (min-width: 0px) and (max-width: 399px) {
+  .step-description{
+   width: 65%;
+  }
+  
+
+}

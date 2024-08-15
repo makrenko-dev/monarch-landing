@@ -1,0 +1,243 @@
+.main-container1 {
+  font-family: 'Kharkiv Tone', sans-serif;
+  position: relative;
+  height: 110vh; /* Adjust as needed */
+  width: 100vw;
+  background: none!important;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-to-top-btn {
+  position: relative;
+  top: 30px;
+  bottom: 20px;
+  right: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-v {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  font-size: 2.5rem;
+  background-image: linear-gradient(to bottom, #FFE500, #FF8A1E);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: pulsate 1s infinite; /* Animation for pulsating effect */
+  transition: font-size 0.5s ease, opacity 0.5s ease; /* Transition for font size and opacity */
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animated-v.hide {
+  opacity: 0; /* Hidden when this class is applied */
+}
+
+.static-m {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  font-size: 5rem;
+  background-image: linear-gradient(to bottom, #FFE500, #FF8A1E);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 30px white;
+  opacity: 0; /* Hidden by default */
+  transition: font-size 0.5s ease, opacity 0.5s ease; /* Transition for font size and opacity */
+}
+
+.static-m.visible {
+  opacity: 1; /* Visible when this class is applied */
+}
+
+/* Animations */
+.animate-text motion.span {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.animate-text motion.span.show {
+  opacity: 1;
+}
+
+/* Text Styles */
+.text-1,
+.text-2,
+.text-3 {
+  color: white;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh; /* Adjust as needed */
+  z-index: 0;
+  overflow: clip; /* Ensure background does not overflow */
+}
+
+.group1 {
+  position: relative;
+  height: fill-content; /* Check if this is a valid property */
+}
+
+.text-1,
+.text-2 {
+  display: inline-block;
+  position: relative;
+  height: 136px; /* Adjust as needed */
+  margin: 130px 0 0 60px; /* Adjust margins */
+  font-family: 'Kharkiv Tone', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 120px; /* Adjust font sizes */
+  font-weight: 400;
+  line-height: 136px;
+  text-align: left;
+  z-index: 5;
+}
+
+.text-2 {
+  left: 15%; /* Adjust positioning */
+  margin: 60px 0 0 0; /* Adjust margins */
+}
+
+.maincont {
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-to-about-us-btn {
+  z-index: 1005;
+  animation: none!important;
+}
+
+@media only screen and (max-width: 928px) {
+  /* Styles for tablets and phones */
+  .group1 {
+    flex-direction: row;
+    height: fit-content; /* Adjust height as needed */
+  }
+
+  .text-2 {
+    left: 95%; /* Adjust positioning */
+    margin: 60px 0 0 0; /* Adjust margins */
+  }
+
+  .group2 {
+    flex-direction: row;
+    height: fit-content; /* Adjust height as needed */
+    padding-top: 120px; /* Adjust padding as needed */
+  }
+
+  .text-1,
+  .text-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 56px; /* Adjust font sizes */
+    width: fit-content;
+    height: fit-content; /* Adjust height as needed */
+  }
+
+  .text-1 {
+    margin-left: 30px; /* Adjust margins */
+    margin-top: 60px; /* Adjust margins */
+  }
+
+  .text-2 {
+    margin-left: 0px; /* Adjust margins */
+    margin-top: 0px; /* Adjust margins */
+  }
+
+  .main-container1 {
+    font-family: 'Kharkiv Tone', sans-serif;
+    position: relative;
+    height: fit-content; /* Adjust height as needed */
+    background: none!important;
+    display: flex;
+    justify-content: normal;
+  }
+
+  .text-1 span {
+    height: 10%; /* Adjust height as needed */
+    margin-top: -70px; /* Adjust margins */
+  }
+
+  .text-2 span {
+    height: 10%; /* Adjust height as needed */
+    margin-top: -70px; /* Adjust margins */
+  }
+}
+
+@media only screen and (min-width: 928px) and (max-width: 1190px) {
+  /* Styles for medium-sized screens */
+  .text-1,
+  .text-2 {
+    font-size: 100px; /* Adjust font sizes */
+    width: fit-content;
+    justify-content: center;
+  }
+
+  .main-container1 {
+    height: 80vh; /* Adjust height as needed */
+  }
+}
+
+@media (min-width: 0px) and (max-width: 380px) {
+  /* Styles for smaller screens */
+  .text-1,
+  .text-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 40px; /* Adjust font sizes */
+    width: fit-content;
+    height: fit-content; /* Adjust height as needed */
+  }
+
+  .text-1 span {
+    height: fit-content; /* Adjust height as needed */
+    margin-top: -90px; /* Adjust margins */
+  }
+
+  .text-2 span {
+    height: 10%; /* Adjust height as needed */
+    margin-top: -90px; /* Adjust margins */
+  }
+
+  .text-1 {
+    margin-left: 30px; /* Adjust margins */
+    margin-top: 70px; /* Adjust margins */
+  }
+
+  .text-2 {
+    left: 0%;
+    margin-left: 50px; /* Adjust margins */
+    margin-top: 0px; /* Adjust margins */
+  }
+}
+
+@media (min-width: 390px) and (max-width: 400px) {
+  /* Additional styles for specific screen sizes */
+}
+
+@media (min-width: 401px) and (max-width: 415px) {
+  /* Additional styles for specific screen sizes */
+}

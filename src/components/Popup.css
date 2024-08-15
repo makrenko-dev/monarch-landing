@@ -1,0 +1,102 @@
+h2{
+	font-family: 'Kharkiv Tone', sans-serif;
+  font-size: 370%;
+}
+p{
+	margin-bottom: 0px;
+	 font-size: 250%;
+}
+
+.uk{
+	font-size: 170%;
+	display: flex;
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.en{
+	font-size: 170%;
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+}
+.bt{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Kharkiv Tone', sans-serif;
+}
+
+.en span{
+	margin-top: 10%;
+}
+.contactform{
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact{
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contactform p{
+	 font-size: 100%;
+	 width: 80%;
+}
+
+.contact p{
+	 font-size: 100%;
+	 width: 90%;
+}
+
+.contTyt{
+	font-size: 160%;
+	margin-bottom: 5%;
+}
+
+.svgimg svg{
+	width: 50px;
+	height: 50px;
+}
+
+@media only screen and (max-width: 928px) {
+	.uk{
+	font-size: 100%;
+	display: flex;
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.en{
+	font-size: 100%;
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+}
+
+h2{
+	font-family: 'Kharkiv Tone', sans-serif;
+  font-size: 250%;
+}
+
+.contactform p{
+	 font-size: 70%;
+	 width: 100%;
+}
+
+.contact p{
+	 font-size: 70%;
+	 width: 100%;
+}
+
+.contTyt{
+	font-size: 120%;
+	margin-bottom: 5%;
+}
+
+}

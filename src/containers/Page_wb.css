@@ -1,0 +1,13 @@
+.App_wb {
+ 
+  width: 100vw;
+  z-index: 0;
+   overflow-x: clip;
+   overflow-y: clip;
+}
+
+@media only screen and (max-width: 1190px){
+    .App_wb {
+    background: none;
+  }
+}

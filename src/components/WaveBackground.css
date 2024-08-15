@@ -1,0 +1,37 @@
+.curveWrap {
+    background: transparent;
+    width: 100vw;
+    height: 350px;
+     margin-bottom: -320px;
+     z-index: -5;
+}
+.curveWrap .curve {
+stroke-linecap: round;
+    stroke-opacity: 0.7;
+    z-index: -5;
+}
+.curveWrap .curve path {
+    transform-origin: center;
+    z-index: -5;
+}
+
+.curveWrap .curve path:nth-child(1) {
+    stroke-width: 6;
+    z-index: -5;
+    animation: curve 35s linear 2.4s infinite;
+}
+ 
+@keyframes curve {
+    0% {
+        transform: rotateX(0deg) skewY(0deg);
+        stroke-opacity: 0.7;
+    }
+    50% {
+        transform: rotateX(360deg) skewY(8deg);
+        stroke-opacity: 1;
+    }
+    100% {
+        transform: rotateX(0deg) skewY(0deg);
+        stroke-opacity: 0.7;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.894fd486.css",
+    "main.js": "/static/js/main.9a633575.js",
+    "static/js/592.424e19bd.chunk.js": "/static/js/592.424e19bd.chunk.js",
+    "static/media/Ellipsebig.png": "/static/media/Ellipsebig.ef61c92d5d9c910b092c.png",
+    "static/media/zerno.png": "/static/media/zerno.00a342b986b39059c914.png",
+    "static/media/Ellipsesmall.png": "/static/media/Ellipsesmall.2b20d2d8ba632ac01dc0.png",
+    "static/media/HelveticaLight.otf": "/static/media/HelveticaLight.677f82c0f6e45b4eeaf2.otf",
+    "static/media/KharkivTone.ttf": "/static/media/KharkivTone.6606d31e8d8c3e9f194b.ttf",
+    "static/media/HelveticaUltraLight.otf": "/static/media/HelveticaUltraLight.ee85bd92152d792a8ec7.otf",
+    "static/media/logo.svg": "/static/media/logo.455f8d0f4b3a5cb22b87c6717b2a927c.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/logomenu.svg": "/static/media/logomenu.613bc06e61593daa87278d472f8cea6a.svg",
+    "main.894fd486.css.map": "/static/css/main.894fd486.css.map",
+    "main.9a633575.js.map": "/static/js/main.9a633575.js.map",
+    "592.424e19bd.chunk.js.map": "/static/js/592.424e19bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.894fd486.css",
+    "static/js/main.9a633575.js"
+  ]
+}

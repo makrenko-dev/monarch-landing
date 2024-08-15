@@ -1,0 +1,172 @@
+@media (min-width: 992px){
+  .container{
+        
+  }
+}
+
+.WhyUS {
+  position: relative;
+  text-align: left;
+  display: flex;
+   z-index: 50;
+   font-family: 'Kharkiv Tone', sans-serif;
+}
+
+.WhyUS-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+  position: relative;
+  z-index: 5;
+  height: 400vh;
+}
+.WhyUS-header h1{
+  font-size: 80px!important;
+  align-self: flex-start;
+  margin-bottom: 60px;
+  margin-top: 130px;
+
+}
+.WhyUS-header p{
+  align-items: end;
+  text-align: end;
+  align-self: flex-end;
+  font-size: 50px!important;
+
+}
+.st{
+  position: sticky;
+  top:-90px;
+  display: flex;
+  flex-direction: column;
+}
+.st{
+  position: sticky;
+  top:-90px;
+  display: flex;
+  flex-direction: column;
+}
+.p11ab{
+  text-align: left!important;
+   align-self: flex-start!important;
+   width: 100%!important;
+   
+     height: fit-content;
+    width: 100%;
+}
+canvas {
+  display: block;
+}
+.word {
+  display: inline-block;
+}
+
+.word.yellow {
+  color: yellow;
+}
+
+.word.white {
+  color: white;
+}
+
+.cursor-delay {
+  display: inline-block;
+  width: 0;
+  height: 1em;
+  animation: cursor-appear 1s forwards;
+}
+
+@keyframes cursor-appear {
+  to {
+    width: 1em;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: #FF8A1E;
+  background-color: transparent; /* Adjust the color as needed */
+  animation: cursor-blink 0.5s infinite step-start;
+}
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 2.7s ease; /* Добавляем плавный переход для анимации */
+}
+
+
+
+@media (max-width: 928px){
+.WhyUS {
+  margin-bottom: 90px;
+}
+.WhyUS-header {
+      height: fit-content;
+}
+
+  .WhyUS-header h1{
+  font-size: 47px!important;
+   margin-bottom: 60px;
+  margin-top: 40px;
+
+}
+.WhyUS-header p{
+  align-items: end;
+  text-align: end;
+  align-self: flex-end;
+  font-size: 25px!important;
+
+  width: 90%;
+}
+.p11ab{
+   width: 100%!important;
+   position: relative;
+   top:0;
+}
+
+
+.WhyUS-header {
+  margin-left: 30px;
+  margin-right: 30px;
+  min-height: 50vh;
+}
+
+.st{
+  position: relative;
+  top:0px;
+}
+
+}
+
+
+
+@media (min-width: 381px) and (max-width: 400px){
+  .WhyUS-header {
+        height:fit-content;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 380px){
+   .WhyUS-header {
+        height:fit-content;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 415px){
+ .WhyUS-header {
+        height: fit-content;
+  }
+}

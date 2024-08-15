@@ -1,0 +1,94 @@
+@media (min-width: 992px){
+	.container, .container-lg, .container-md, .container-sm {
+    max-width: 92%;
+  }
+}
+
+.maint{
+	width: 280px!important;
+	 z-index: 50;
+
+}
+.container-napryamy{
+	 z-index: 50;
+	 width: 100vw;
+	 position:relative;
+	 font-family: 'Kharkiv Tone', sans-serif;
+}
+.card-body.ccs{
+	padding: 20px!important;
+	 z-index: 50;
+	 position:relative;
+	 background-color: rgba(255, 255, 255, 0.07)!important;
+	 transition: background-color 0.3s ease; 
+	 font-family: 'Helvetica Light', sans-serif;
+	 letter-spacing: 1px;
+	 border-radius: 20px;
+}
+.card-body.ccs:hover {
+  background-color: rgba(255, 255, 255, 0.2)!important;
+  cursor: pointer;
+}
+
+.h2m {
+  font-size: 98px;
+  width: 1200px;
+  color: white;
+  margin-top: 130px;
+  position: relative;
+  z-index: 50;
+  text-align: left;
+}
+
+.card-napryamy{
+	display: flex!important;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media (max-width: 928px) {
+  /* Adjust styles for screens with a width of 768 pixels or less */
+  .h2m {
+    font-size: 47px; /* Adjust the font size for smaller screens */
+    width: 90%; /* Make it take the full width on small screens */
+    margin-left: 30px;
+    margin-top: 40px; /* Adjust the top margin for smaller screens */
+    margin-bottom: 40px;
+  }
+
+  .container-napryamy{
+	margin-left: 0px;
+	margin-right: 30px;
+	padding: 0px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+
+.ccs-napryamy-body.card-body{
+	padding: 20px!important; 
+	background-color: rgba(255, 255, 255, 0.1)!important;
+	 border-radius: 20px;
+}
+#Napryamy .slick-slide{
+	width: 99vw!important;
+}
+#Napryamy .slick-track{
+	width: 1200px!important;
+	margin-left: 0px;
+}
+
+#Napryamy .slick-list{
+	padding-left: 0px;
+}
+#Napryamy .card{
+	margin-bottom: 0px!important;
+}
+.slick-dots button{
+	background-color: transparent!important;
+}
+.slick-dots li button:before{
+	color: white!important;
+}
+}

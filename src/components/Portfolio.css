@@ -1,0 +1,56 @@
+.port .slick-track {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.divb {
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 80% !important;
+  text-align: center;
+}
+
+.port .slick-slide {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 928px) {
+  #Portfolio .slick-slide {
+    flex: 0 0 auto;
+    width: 99vw !important;
+  }
+  #Portfolio .slick-list {
+    padding-left: 0px;
+  }
+}
+
+#Portfolio .card-napryamy {
+  width: 100% !important;
+}
+
+.divb {
+  width: 80% !important;
+}
+
+@media only screen and (min-width: 929px) {
+  #Portfolio .slick-slide {
+    flex: 0 0 auto; /* Ensure slides do not stretch or shrink */
+    width: 25% !important; /* Ensure slide width adapts to content */
+  }
+  #Portfolio .slick-slider {
+    width: 90vw !important;
+    margin: 0 auto;
+  }
+  #Portfolio .slick-track {
+    width: 90vw !important;
+    margin: 0 auto;
+  }
+  #Portfolio .slick-list {
+    padding: 20px;
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,30 @@
+.p-3{
+	padding: 60px!important;
+	padding-bottom: 0px!important;
+}
+footer.container{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+footer{
+	height: fit-content;
+}
+.col-md-12{
+	height: fit-content;
+	padding-bottom: 30px;
+}
+.row{
+	height: fit-content!important;
+}
+@media (max-width: 928px) {
+	footer{
+	height: fit-content;
+}
+.p-3{
+	padding: 30px!important;
+}
+.row{
+	margin-bottom: 0px!important;
+}
+}
